@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/normlize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Great+Vibes&family=Montserrat:wght@700&family=Poppins:wght@300&family=Work+Sans:wght@200;300;400;600;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section class="vh-100 d-flex justify-content-center " style="background-color: #24353F;">
+        <div class=" content  mt-5  " style="width: 50%; height: 70%; background-color: #24353F;">
+            <div class="container  d-flex flex-column justify-content-center align-items-center">
+                <h1 class="fs-1">Smart Login System</h1>
+
+                <input class="form-control border border-white bg-transparent  my-1 text-white" type="email"
+                    placeholder="enter your email" id="emailInput">
+                <input class="form-control border border-white bg-transparent my-2 text-white" type="password"
+                    placeholder="enter your password" id="passInput">
+                <p class="text-danger d-none" id="incorrect">incorrect email or password</p>
+                <p class="text-danger d-none " id="required">All inputs is required</p>
+                <button class="btn w-100 mt-4 btn-block btn-outline-info" id="submit">Login</button>
+                <p class="text-white mt-2">Don’t have an account? <a href="signUp.html">Sign Up</a></p>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <script src="js\bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
