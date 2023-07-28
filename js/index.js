@@ -13,18 +13,18 @@ var hello = document.getElementById("hellouser")
 //===================== what page are you in ==================================
 
 
-if (window.location.pathname === "/index.html") {
+if (window.location.pathname === "/Login-verify-/index.html") {
     var button = document.querySelector("#submit");
     button.addEventListener("click", signIn)
 
 
 
-} else if (window.location.pathname === "/signUp.html") {
+} else if (window.location.pathname === "/Login-verify-/signUp.html") {
     var btnUp = document.querySelector("#signup")
     btnUp.addEventListener('click', addUser)
 
 
-} else if (window.location.pathname === "/home.html") {
+} else if (window.location.pathname === "/Login-verify-/home.html") {
 
     hello.innerHTML = `hello ${users[mainindex].name}`;
 
